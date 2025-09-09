@@ -1,0 +1,9 @@
+!! Tor proxy for accounts:
+
+"proxy": ("socks5", "127.0.0.1", 9150), # account 1
+"proxy": ("socks5", "127.0.0.1", 9152), # account 2
+"proxy": ("socks5", "127.0.0.1", 9154), # account 3
+   continue ...
+
+(If you need another one, add new data and config to the TorExpert folder. Then add to .bat and check the torrc config or your personal config file ' .conf ', with ' tor ' folder)
+(For a new port, add +2, if 9154 then the next 9156 and so on.)
